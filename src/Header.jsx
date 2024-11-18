@@ -1,14 +1,27 @@
-
+import { motion } from "motion/react"
 function Header(){
 
     return(
         <div className="header-container">
             <div className="header-grid">
-                <button className="link header-button"> <a href="https://github.com/TatesWorkAcc">My Github</a></button>
-                <button className="link header-button"><a href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/">My Linkedin</a></button>
+                <motion.button className="link header-button"
+                    whileHover={{scale: 1.1}}
+                    whileTap={{scale: 0.95}}
+                    >    
+                    <a href="https://github.com/TatesWorkAcc">My Github</a>
+                </motion.button>
+                <motion.button className="link header-button"
+                    whileHover={{scale: 1.1}}
+                    whileTap={{scale: 0.95}}
+                    ><a href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/">My Linkedin</a>
+                </motion.button>
             </div>
             <div className="header-grid">
-                <button className="header-button">Projects</button>
+                <motion.button className="header-button"
+                    whileHover={{scale: 1.1}}
+                    whileTap={{scale: 0.95}}>
+                    Projects
+                </motion.button>
             </div>
         </div>
     )
