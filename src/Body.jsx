@@ -2,9 +2,14 @@
 function Body(){
 
     return(
-        <div className="body-container">
-            
-        </div>
+        <>
+            <style>
+                
+            </style>
+            <div className="body-container">
+
+            </div>
+        </>
     )
 
 }
