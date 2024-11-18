@@ -27,7 +27,7 @@ html, body {
   text-decoration: none;
 }
 .header-button{
-  font-size: clamp(.8rem, 2vw, 1rem);
+  font-size: clamp(.5rem, 2vw, 1rem);
   background-color: rgb(194, 190, 190);
   border: none;
   border-radius: 5px;
@@ -49,10 +49,13 @@ html, body {
 }
 .intro{
   padding-left: 20px;
-  font-size: clamp(1rem, 5vw, 5rem);
+  font-size: clamp(1rem, 5vw, 6rem);
 }
 .font-text{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills-text{
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 /* body */
 .body-container{
