@@ -11,7 +11,24 @@ function Body(){
         transition={{ duration: 1}}
         style={{ position: 'absolute'}}
         >
+            <motion.div className='grid '>
+                
+            </motion.div>
+            <motion.div className='grid'>
 
+            </motion.div>
+            <motion.div className='grid'>
+                
+            </motion.div>
+            <motion.div className='grid'>
+
+            </motion.div>
+            <motion.div className='grid'>
+                
+            </motion.div>
+            <motion.div className='grid'>
+
+            </motion.div>
         </motion.div>
     )
 
