@@ -12,19 +12,19 @@ function Body(){
         style={{ position: 'absolute'}}
         >
             <motion.div className='grid '>
-                <image href='src/assets/project-1.png'></image>
-            </motion.div>
-            <motion.div className='grid'>
-
+                <img src='src/assets/project-1.png' alt='Project 1'></img>
             </motion.div>
             <motion.div className='grid'>
                 
             </motion.div>
             <motion.div className='grid'>
+                <img src='src/assets/project-2.png' alt='Project 2'></img>
+            </motion.div>
+            <motion.div className='grid'>
 
             </motion.div>
             <motion.div className='grid'>
-                
+            <img src='src/assets/project 3.png' alt='Project 3'></img>
             </motion.div>
             <motion.div className='grid'>
 
