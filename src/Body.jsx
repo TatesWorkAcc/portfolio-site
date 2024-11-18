@@ -1,10 +1,18 @@
+import { motion } from 'motion/react'
 
 function Body(){
 
     return(
-            <div className="body-container">
+        <motion.div 
+        className="body-container"
+        initial={{ opacity: 0, y: 50}}
+        whileInView={{opacity:1, y: 0}}
+        viewport={{once: false}}
+        transition={{ duration: 1}}
+        style={{ position: 'absolute'}}
+        >
 
-            </div>
+        </motion.div>
     )
 
 }
