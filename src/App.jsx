@@ -1,6 +1,6 @@
 import Header from "./header"
 import Name from "./Name"
-
+import Body from "./Body"
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <>
       <Header></Header>
       <Name></Name>
+      <Body></Body>
     </>
   )
 }
