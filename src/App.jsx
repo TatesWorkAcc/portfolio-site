@@ -1,6 +1,7 @@
 import Header from "./header"
 import Name from "./Name"
 import Body from "./Body"
+import SkillsContacts from "./SkillsContacts"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <Name></Name>
+      <SkillsContacts></SkillsContacts>
       <Body></Body>
     </>
   )

@@ -57,12 +57,29 @@ html, body {
 .skills-text{
   font-size: clamp(1rem, 5vw, 2rem);
 }
+
+
+.grid-spacing{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: auto;
+  padding-left: 20px;
+  font-size: clamp(1rem, 5vw, 1rem)
+}
+/* skillscontacts */
+.skillscontacts-container{
+  margin-bottom: 20px;
+}
+.skill-container{
+  width: 100vw;
+  height: 100vh;
+}
 /* body */
 .body-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
-  margin-top: 10px;
+  margin-top:700px;
   width: 100vw;
   height: 200vh;
   background-color: rgb(34, 34, 34);
