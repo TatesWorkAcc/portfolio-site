@@ -12,7 +12,7 @@ function Body(){
         style={{ position: 'absolute'}}
         >
             <motion.div className='grid '>
-                
+                <image href='src/assets/project-1.png'></image>
             </motion.div>
             <motion.div className='grid'>
 

@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  background-color: rgb(46, 46, 46);
 }
 /* header */
 .header-container{
@@ -53,6 +54,7 @@ html, body {
 }
 .font-text{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(189, 186, 186);
 }
 .skills-text{
   font-size: clamp(1rem, 5vw, 2rem);
@@ -67,28 +69,28 @@ html, body {
   font-size: clamp(1rem, 5vw, 1rem)
 }
 /* skillscontacts */
-.skillscontacts-container{
-  margin-bottom: 20px;
-}
+
 .skill-container{
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
+  border-radius: 10px;
+
+  overflow-y: scroll;
+  margin-right: 20px;
 }
 /* body */
 .body-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
-  margin-top:700px;
+  margin-top:900px;
   width: 100vw;
   height: 200vh;
-  background-color: rgb(34, 34, 34);
   overflow-y: scroll;
   gap: 20px;
-
+  background-color: rgb(46, 46, 46);
 }
 /* body grids */
 .grid{
-  background-color: black;
   border: 5px solid red;
 }
