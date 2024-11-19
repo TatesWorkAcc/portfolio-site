@@ -165,6 +165,7 @@ a{
 }
 /* phone view */
 @media (max-width: 1000px){
+
   .body-container{
     grid-template-columns: 1fr;
     margin-top: 1190px;
