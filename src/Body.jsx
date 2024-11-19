@@ -32,7 +32,7 @@ function Body() {
           viewport={{ once: true, margin: "-10%" }}
           variants={animationVariants}
         >
-          <img src="portfolio-site/public/project-1.png" alt="Project 1"></img>
+          <img src="./project-1.png" alt="Project 1"></img>
         </motion.div>
         <motion.div
           className="grid font-text project-text-grid"
