@@ -7,6 +7,7 @@ function SkillsContacts(){
         <motion.div className="skill-container"
         initial={{ opacity: 0, y: 50}}
         whileInView={{opacity:1, y: 0}}
+        viewport={{once: true}}
         transition={{ duration: 1}}
         style={{position: "absolute"}}>
 
