@@ -66,22 +66,25 @@ html, body {
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
   padding-left: 20px;
-  font-size: clamp(1rem, 5vw, 1rem)
+  font-size: clamp(1rem, 5vw, 1rem);
 }
 /* skillscontacts */
-
+.skillscontacts-container{
+  padding-right: 10px;
+}
 .skill-container{
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 120vh;
   border-radius: 10px;
-
   overflow-y: scroll;
   margin-right: 20px;
 }
 /* body */
 .body-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   margin-top:900px;
   width: 100vw;
@@ -90,6 +93,7 @@ html, body {
   gap: 20px;
   background-color: rgb(46, 46, 46);
 }
+
 /* body grids */
 .grid{
   display: flex;
@@ -107,4 +111,11 @@ html, body {
 .project-text{
   font-size: 1.5rem;
   padding: 20px;
+}
+/* phone view */
+@media (max-width: 1000px){
+  .body-container{
+    grid-template-columns: 1fr;
+    margin-top: 1000px;
+  }
 }

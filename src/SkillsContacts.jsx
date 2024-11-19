@@ -22,6 +22,9 @@ function SkillsContacts(){
                             <div className="font-text">  
                                 <h3>Framework & Tools:</h3> <h3>State Management, Prettier, Eslint, Git</h3>
                             </div> 
+                            <div className="font-text">  
+                                <h3>Additional Skills:</h3> <h3>Problem solving skills, Agile Development, Excellent Verbal Communication</h3>
+                            </div> 
                         </div>
                     <div className="contact-grid">
                         <h3 className="intro skills-text font-text">Contacts</h3>
