@@ -10,8 +10,10 @@ function SkillsContacts(){
         viewport={{once: true}}
         transition={{ duration: 1}}
         style={{position: "absolute"}}>
-
-                    <h3 className="intro skills-text font-text">Skills</h3>
+            <div className="all-SC-grid">
+                    <div className="skill-header-text">
+                        <h3 className="intro skills-text font-text">Skills</h3>
+                    </div>
                         <div className="grid-spacing">
                             <div className="font-text">
                                 <h3>Languages:</h3> <h3>C++, JavaScript, Python</h3>
@@ -27,7 +29,9 @@ function SkillsContacts(){
                             </div> 
                         </div>
                     <div className="contact-grid">
-                        <h3 className="intro skills-text font-text">Contacts</h3>
+                        <div className="contacts-text">
+                            <h3 className="intro skills-text font-text">Contacts</h3>
+                        </div>
                         <div className="grid-spacing">
                             <div className="font-text">
                                 <h3 >Email:</h3> <h3>TatesWorkAcc@gmail.com</h3>
@@ -42,6 +46,7 @@ function SkillsContacts(){
                                 <h3 className="font-text">Phone Number:</h3> <h3>702-559-8889</h3>
                             </div>
                         </div>
+                    </div>
                     </div>
         </motion.div>
     </div>
