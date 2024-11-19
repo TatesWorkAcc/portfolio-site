@@ -15,8 +15,10 @@ function Body(){
                 <img src='src/assets/project-1.png' alt='Project 1'></img>
             </motion.div>
             <motion.div className='grid font-text'>
-                <h1>News Article Finder - November 2024</h1>
-                <a className='project-text' href='https://github.com/TatesWorkAcc/search-latest-news'>github.com/TatesWorkAcc/search-latest-news</a>
+                <div className='grid-header'>
+                <h1 className='project-text-header'>News Article Finder - November 2024</h1>
+                    <a className='project-text' href='https://github.com/TatesWorkAcc/search-latest-news'>github.com/TatesWorkAcc/search-latest-news</a>
+                </div>
                 <p className='project-text'>  
                 Get users input for a topic and displays news about the topic in an orderly fashion (title, image, author, date, description, content, and url). <br></br><br></br>
                     ●	Built a news search app using React, fetching articles from the NewsAPI based on user-defined queries.<br></br><br></br>
@@ -30,8 +32,10 @@ function Body(){
                 <img src='src/assets/project-2.png' alt='Project 2'></img>
             </motion.div>
             <motion.div className='grid font-text'>
-                <h1>Weather App - November 2024</h1>
+            <div className='grid-header'>
+                <h1 className='project-text-header'>Weather App - November 2024</h1>
                     <a className='project-text' href='https://github.com/TatesWorkAcc/search-weather-app'>github.com/TatesWorkAcc/search-weather-app</a>
+                </div>
                     <p className='project-text'>
                     Gets user input for what city they live in, gives today and the next 5 days temp, condition, description, and humidity  <br></br><br></br>
                     ●	Designed a weather forecasting app using React and OpenWeatherMap API to provide real-time weather updates. <br></br><br></br>
@@ -45,8 +49,10 @@ function Body(){
             <img src='src/assets/project 3.png' alt='Project 3'></img>
             </motion.div>
             <motion.div className='grid font-text'>
-                <h1>Personal Budget App - November 2024</h1>
+                <div className='grid-header'>
+                <h1 className='project-text-header'>Personal Budget App - November 2024</h1>
                     <a className='project-text' href='https://github.com/TatesWorkAcc/personal-budget-tracker'>github.com/TatesWorkAcc/personal-budget-tracker</a>
+                </div>    
                     <p className='project-text'>
                     Enter your income and your expenses, get your total amount of income after expenses have been paid. <br></br><br></br>         
                     ●	Developed a financial tracking tool using React to manage income and expenses.<br></br><br></br>
