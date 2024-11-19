@@ -9,7 +9,7 @@ function Body(){
         whileInView={{opacity:1, y: 0}}
         viewport={{once: true}}
         transition={{ duration: 1}}
-        
+        style={{position: "absolute"}}
         >
             <motion.div className='grid '>
                 <img src='src/assets/project-1.png' alt='Project 1'></img>
