@@ -217,6 +217,14 @@ a {
   font-size: clamp(1.5rem, 5vw, 2rem);
   padding: 20px;
 }
+.personal-web{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.personal-git{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .back-to-top-container{
   display: flex;
   flex-direction: column;

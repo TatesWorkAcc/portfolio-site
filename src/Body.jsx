@@ -137,14 +137,14 @@ function Body() {
               Personal Budget App - November 2024
             </h1>
             <a
-              className="project-text"
+              className="project-text personal-web"
               href="https://tatesworkacc.github.io/personal-budget-tracker-web/"
               target="_blank" rel="noopener noreferrer"
             >
               personal-budget-tracker website 🔗
             </a>
             <a
-              className="project-text"
+              className="project-text personal-git"
               href="https://github.com/TatesWorkAcc/personal-budget-tracker"
               target="_blank" rel="noopener noreferrer"
             >
