@@ -77,6 +77,11 @@ a {
     border-bottom-right-radius: 10px;
     margin-bottom: 100px;
 }
+/* container of skills and body */
+.skill-body-container{
+    display: flex;
+    flex-direction: column;
+}
 /* skillscontacts */
 .all-SC-grid {
     margin-top: 50px;
