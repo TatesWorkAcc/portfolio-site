@@ -159,7 +159,19 @@ function Body() {
           </p>
         </motion.div>
       </div>
+      <div className="back-to-top-container">
+        <motion.button
+          className="back-to-top"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          >
+            <a href="#top" className="no-underline">
+            Back to top
+            </a>
+        </motion.button>
+      </div>
     </motion.div>
+    
   );
 }
 
