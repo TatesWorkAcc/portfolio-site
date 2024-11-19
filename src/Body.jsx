@@ -49,7 +49,7 @@ function Body() {
               className="project-text"
               href="https://github.com/TatesWorkAcc/search-latest-news"
             >
-              github.com/TatesWorkAcc/search-latest-news
+              github.com/TatesWorkAcc/search-latest-news 🔗
             </a>
           </div>
           <p className="project-text">
@@ -93,7 +93,7 @@ function Body() {
               className="project-text"
               href="https://github.com/TatesWorkAcc/search-weather-app"
             >
-              github.com/TatesWorkAcc/search-weather-app
+              github.com/TatesWorkAcc/search-weather-app 🔗
             </a>
           </div>
           <p className="project-text">
@@ -138,7 +138,7 @@ function Body() {
               className="project-text"
               href="https://github.com/TatesWorkAcc/personal-budget-tracker"
             >
-              github.com/TatesWorkAcc/personal-budget-tracker
+              github.com/TatesWorkAcc/personal-budget-tracker 🔗
             </a>
           </div>
           <p className="project-text">
