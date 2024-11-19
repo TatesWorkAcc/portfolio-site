@@ -33,7 +33,7 @@ function Header() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a href="portfolio-site/public/Resume.pdf"
+          <a href="./Resume.pdf"
           target="_blank" rel="noopener noreferrer">
           Resume
           </a>
