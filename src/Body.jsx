@@ -1,6 +1,15 @@
 import { motion } from "motion/react";
 function Body() {
 
+    const animationVariants = {
+        hidden: { opacity: 0, x: -100 }, // Starts off screen to the left
+        visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Slides in
+    };
+
+    const animationVariantsRight = {
+        hidden: { opacity: 0, x: 100 }, // Start off-screen to the right
+        visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Slide in
+    };
 return (
     <motion.div
     initial={{ opacity: 0, y: 50 }}
@@ -13,10 +22,18 @@ return (
         <h1 className="projects-title font-text">Projects</h1>
     </div>
     <div className="body-container">
-        <motion.div className="grid project-pic-grid">
+        <motion.div className="grid project-pic-grid"
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: true, margin: "-10%" }}
+         variants={animationVariants}>
         <img src="src/assets/project-1.png" alt="Project 1"></img>
         </motion.div>
-        <motion.div className="grid font-text">
+        <motion.div className="grid font-text project-text-grid"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-10%" }}
+        variants={animationVariantsRight}>
         <div className="grid-header">
             <h1 className="project-text-header">
             News Article Finder - November 2024
@@ -47,10 +64,18 @@ return (
             articles and invalid author data.<br></br>
         </p>
         </motion.div>
-        <motion.div className="grid project-pic-grid">
+        <motion.div className="grid project-pic-grid"
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: true, margin: "-10%" }}
+         variants={animationVariants}>
         <img src="src/assets/project-2.png" alt="Project 2"></img>
         </motion.div>
-        <motion.div className="grid font-text">
+        <motion.div className="grid font-text project-text-grid"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-10%" }}
+        variants={animationVariantsRight}>
         <div className="grid-header">
             <h1 className="project-text-header">Weather App - November 2024</h1>
             <a
@@ -76,10 +101,18 @@ return (
             <br></br>
         </p>
         </motion.div>
-        <motion.div className="grid project-pic-grid">
+        <motion.div className="grid project-pic-grid"
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: true, margin: "-10%" }}
+         variants={animationVariants}>
         <img src="src/assets/project 3.png" alt="Project 3"></img>
         </motion.div>
-        <motion.div className="grid font-text">
+        <motion.div className="grid font-text project-text-grid"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-10%" }}
+        variants={animationVariantsRight}>
         <div className="grid-header">
             <h1 className="project-text-header">
             Personal Budget App - November 2024
