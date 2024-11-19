@@ -12,6 +12,7 @@ function Body() {
   return (
     
     <motion.div
+      className="put-under"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50%", threshold: 0.4 }}

@@ -101,7 +101,7 @@ a {
 }
 .skill-container {
   width: 100vw;
-  height: 120vh;
+  height: 58vh;
   border-radius: 10px;
   overflow-y: scroll;
   margin-right: 20px;
@@ -127,7 +127,18 @@ a {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.clickable{
+  cursor: pointer;
+  z-index: 100;
+}
+.clickable:hover{
+    cursor: pointer;
+    z-index: 100;
+}
 /* body */
+.put-under{
+  z-index: -1;
+}
 #projects{
   scroll-margin-top: -550px;
 }
@@ -164,6 +175,7 @@ a {
 
 /* body grids */
 .grid {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,6 +210,9 @@ a {
 }
 /* phone view */
 @media (max-width: 1000px) {
+  .skill-container{
+    height: 120vh;
+  }
   .projects-title-container {
     margin-top: 130px;
   }
