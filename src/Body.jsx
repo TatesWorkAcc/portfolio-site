@@ -32,7 +32,7 @@ function Body() {
           viewport={{ once: true, margin: "-10%" }}
           variants={animationVariants}
         >
-          <img src="src/assets/project-1.png" alt="Project 1"></img>
+          <img src="/assets/project-1.png" alt="Project 1"></img>
         </motion.div>
         <motion.div
           className="grid font-text project-text-grid"
@@ -79,7 +79,7 @@ function Body() {
           viewport={{ once: true, margin: "-10%" }}
           variants={animationVariants}
         >
-          <img src="src/assets/project-2.png" alt="Project 2"></img>
+          <img src="/assets/project-2.png" alt="Project 2"></img>
         </motion.div>
         <motion.div
           className="grid font-text project-text-grid"
@@ -123,7 +123,7 @@ function Body() {
           viewport={{ once: true, margin: "-10%" }}
           variants={animationVariants}
         >
-          <img src="src/assets/project 3.png" alt="Project 3"></img>
+          <img src="/assets/project 3.png" alt="Project 3"></img>
         </motion.div>
         <motion.div
           className="grid font-text project-text-grid"
