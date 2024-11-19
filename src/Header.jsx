@@ -25,9 +25,16 @@ function Header() {
           </a>
         </motion.button>
       </div>
-      <div className="header-grid projects-button">
+      <div className="header-grid-2 projects-button">
+          <motion.button
+          className="header-button res-pro"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          Resume
+        </motion.button>
         <motion.button
-          className="header-button"
+          className="header-button res-pro"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >

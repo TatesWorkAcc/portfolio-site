@@ -25,6 +25,19 @@ body {
   flex-wrap: nowrap;
   overflow: hidden;
 }
+.header-grid-2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.projects-button{
+  margin-right: 10px;
+}
+.res-pro{
+  margin-right: 20px;
+}
 .link {
   margin-left: 20px;
   color: white;
@@ -40,11 +53,7 @@ body {
   transition: transform 0.3 ease;
   cursor: pointer;
 }
-.projects-button{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
-}
+
 a {
   text-decoration: none;
   color: inherit;
