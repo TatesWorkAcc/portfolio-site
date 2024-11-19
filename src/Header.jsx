@@ -25,7 +25,7 @@ function Header() {
           </a>
         </motion.button>
       </div>
-      <div className="header-grid">
+      <div className="header-grid projects-button">
         <motion.button
           className="header-button"
           whileHover={{ scale: 1.1 }}
