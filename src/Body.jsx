@@ -3,13 +3,14 @@ import { motion } from "motion/react"
 function Body() {
     return (
         <motion.div
-            className="body-container"
+            
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             style={{ position: "absolute" }}
         >
+            <div className="body-container">
             <motion.div className="grid ">
                 <img src="src/assets/project-1.png" alt="Project 1"></img>
             </motion.div>
@@ -109,6 +110,7 @@ function Body() {
                     and error-free code formatting.
                 </p>
             </motion.div>
+            </div>
         </motion.div>
     )
 }
