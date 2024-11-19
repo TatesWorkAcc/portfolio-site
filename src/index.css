@@ -128,6 +128,9 @@ a {
   border-top-right-radius: 10px;
 }
 /* body */
+#projects{
+  scroll-margin-top: -550px;
+}
 .projects-title-container {
   display: flex;
   flex-direction: column;
@@ -196,13 +199,16 @@ a {
 /* phone view */
 @media (max-width: 1000px) {
   .projects-title-container {
-    margin-top: 40px;
+    margin-top: 130px;
   }
   .body-container {
     grid-template-columns: 1fr;
-    margin-top: 1200px;
+    margin-top: 1310px;
   }
   .project-text {
     font-size: 1.5rem
+  }
+  #projects{
+    scroll-margin-top: -1000px;
   }
 }

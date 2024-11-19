@@ -10,6 +10,7 @@ function Body() {
     visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Slide in
   };
   return (
+    
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -17,9 +18,11 @@ function Body() {
       transition={{ duration: 1 }}
       style={{ position: "absolute" }}
     >
+      <section id="projects"></section>  
       <div className="projects-title-container">
         <h1 className="projects-title font-text">Projects</h1>
       </div>
+    
       <div className="body-container">
         <motion.div
           className="grid project-pic-grid"

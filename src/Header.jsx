@@ -31,7 +31,9 @@ function Header() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
+          <a href="#projects" className="no-underline">
           Projects
+          </a> 
         </motion.button>
       </div>
     </div>
