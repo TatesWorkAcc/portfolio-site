@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,10 +7,10 @@ html, body {
   background-color: rgb(14, 14, 14);
 }
 /* header */
-.header-container{
+.header-container {
   display: grid;
   position: fixed;
-  grid-template-columns:repeat(2, 1fr) ;
+  grid-template-columns: repeat(2, 1fr);
   width: 100vw;
   height: 8vh;
   background-color: rgb(44, 43, 43);
@@ -17,33 +18,33 @@ html, body {
   z-index: 100;
   border-bottom: 2px solid rgb(95, 94, 94);
 }
-.header-grid{
+.header-grid {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   overflow: hidden;
 }
-.link{
+.link {
   color: white;
   text-decoration: none;
 }
-.header-button{
+.header-button {
   color: white;
-  font-size: clamp(.5rem, 2vw, 2rem);
+  font-size: clamp(0.5rem, 2vw, 2rem);
   background-color: rgb(75, 74, 74);
   border: 2px solid rgb(95, 94, 94);
   border-radius: 5px;
-  transition: background-color .3s ease;
-  transition: transform .3 ease;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3 ease;
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 /* name */
-.name-container{
+.name-container {
   display: flex;
   flex-wrap: wrap;
 
@@ -53,20 +54,19 @@ a{
   justify-content: center;
   line-height: 0px;
 }
-.intro{
+.intro {
   padding-left: 20px;
   font-size: clamp(1rem, 5vw, 6rem);
 }
-.font-text{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.font-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(189, 186, 186);
 }
-.skills-text{
+.skills-text {
   font-size: clamp(1rem, 5vw, 2rem);
 }
 
-
-.grid-spacing{
+.grid-spacing {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
@@ -78,23 +78,23 @@ a{
   margin-bottom: 100px;
 }
 /* skillscontacts */
-.all-SC-grid{
+.all-SC-grid {
   margin-top: 50px;
 }
-.skills-text{
+.skills-text {
   align-self: center;
 }
-.skillscontacts-container{
+.skillscontacts-container {
   padding-right: 10px;
 }
-.skill-container{
+.skill-container {
   width: 100vw;
   height: 120vh;
   border-radius: 10px;
   overflow-y: scroll;
   margin-right: 20px;
 }
-.skill-header-text{
+.skill-header-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@ a{
   border-top-right-radius: 10px;
   margin-bottom: 10p;
 }
-.contacts-text{
+.contacts-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,11 +116,11 @@ a{
   border-top-right-radius: 10px;
 }
 /* body */
-.body-container{
+.body-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  margin-top:900px;
+  margin-top: 900px;
   width: 100vw;
   height: 200vh;
   overflow-y: scroll;
@@ -130,7 +130,7 @@ a{
 }
 
 /* body grids */
-.grid{
+.grid {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,13 +139,13 @@ a{
   border-radius: 10px;
   margin: 10px;
 }
-.grid img{
+.grid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
-.grid-header{
+.grid-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,18 +155,17 @@ a{
   background-color: rgb(44, 43, 43);
   border-bottom: 2px solid rgb(44, 43, 43);
 }
-.project-text-header{
+.project-text-header {
   font-size: clamp(2rem, 5vw, 4rem);
   margin: 0;
 }
-.project-text{
+.project-text {
   font-size: 1.5rem;
   padding: 20px;
 }
 /* phone view */
-@media (max-width: 1000px){
-
-  .body-container{
+@media (max-width: 1000px) {
+  .body-container {
     grid-template-columns: 1fr;
     margin-top: 1190px;
   }
