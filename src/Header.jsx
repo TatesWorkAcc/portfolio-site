@@ -8,12 +8,12 @@ function Header(){
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.95}}
                     >    
-                    <a href="https://github.com/TatesWorkAcc">My Github</a>
+                    <a className="no-underline" href="https://github.com/TatesWorkAcc">My Github</a>
                 </motion.button>
                 <motion.button className="link header-button"
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.95}}
-                    ><a href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/">My Linkedin</a>
+                    ><a className="no-underline" href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/">My Linkedin</a>
                 </motion.button>
             </div>
             <div className="header-grid">
