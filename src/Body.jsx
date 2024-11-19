@@ -9,6 +9,9 @@ return (
     transition={{ duration: 1 }}
     style={{ position: "absolute" }}
     >
+    <div className="projects-title-container">
+        <h1 className="projects-title font-text">Projects</h1>
+    </div>
     <div className="body-container">
         <motion.div className="grid project-pic-grid">
         <img src="src/assets/project-1.png" alt="Project 1"></img>

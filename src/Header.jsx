@@ -28,6 +28,7 @@ function Header() {
                     </a>
                 </motion.button>
             </div>
+            
             <div className="header-grid">
                 <motion.button
                     className="header-button"

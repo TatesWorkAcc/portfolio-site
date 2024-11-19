@@ -122,6 +122,24 @@ a {
     border-top-right-radius: 10px;
 }
 /* body */
+.projects-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    height: 10vh;
+    width: 100vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(44, 43, 43);
+}
+.projects-title{
+    margin: 0;
+    padding: 0;
+    font-size: clamp(1rem, 5vw, 5rem)
+}
 .body-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -171,8 +189,11 @@ a {
 }
 /* phone view */
 @media (max-width: 1000px) {
+    .projects-title-container{
+        margin-top: 40px;
+    }
     .body-container {
         grid-template-columns: 1fr;
-        margin-top: 1190px;
+        margin-top: 1200px;
     }
 }
