@@ -48,6 +48,7 @@ function Body() {
             <a
               className="project-text"
               href="https://github.com/TatesWorkAcc/search-latest-news"
+              target="_blank" rel="noopener noreferrer"
             >
               github.com/TatesWorkAcc/search-latest-news 🔗
             </a>
@@ -92,6 +93,7 @@ function Body() {
             <a
               className="project-text"
               href="https://github.com/TatesWorkAcc/search-weather-app"
+              target="_blank" rel="noopener noreferrer"
             >
               github.com/TatesWorkAcc/search-weather-app 🔗
             </a>
@@ -137,6 +139,7 @@ function Body() {
             <a
               className="project-text"
               href="https://github.com/TatesWorkAcc/personal-budget-tracker"
+              target="_blank" rel="noopener noreferrer"
             >
               github.com/TatesWorkAcc/personal-budget-tracker 🔗
             </a>

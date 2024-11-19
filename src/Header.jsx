@@ -8,7 +8,8 @@ function Header() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a className="no-underline" href="https://github.com/TatesWorkAcc">
+          <a className="no-underline" href="https://github.com/TatesWorkAcc"
+          target="_blank" rel="noopener noreferrer">
             My Github
           </a>
         </motion.button>
@@ -20,6 +21,7 @@ function Header() {
           <a
             className="no-underline"
             href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/"
+            target="_blank" rel="noopener noreferrer"
           >
             My Linkedin
           </a>
@@ -31,7 +33,10 @@ function Header() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
+          <a href="src/assets/Resume.pdf"
+          target="_blank" rel="noopener noreferrer">
           Resume
+          </a>
         </motion.button>
         <motion.button
           className="header-button res-pro"

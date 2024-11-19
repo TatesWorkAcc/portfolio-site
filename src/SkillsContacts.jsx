@@ -46,7 +46,8 @@ function SkillsContacts() {
               <div className="font-text ">
                 <h3>Linkedin:</h3>{" "}
                 <h3>
-                  <a href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/" >
+                  <a href="https://www.linkedin.com/in/brandon-tate-2bb32b2b1/" 
+                  target="_blank" rel="noopener noreferrer">
                     linkedin.com/in/brandon-tate-2bb32b2b1/ 🔗
                   </a>{" "}
                 </h3>
@@ -54,7 +55,8 @@ function SkillsContacts() {
               <div className="font-text ">
                 <h3>GitHub:</h3>{" "}
                 <h3>
-                  <a href="https://github.com/TatesWorkAcc">
+                  <a href="https://github.com/TatesWorkAcc"
+                  target="_blank" rel="noopener noreferrer">
                     github.com/TatesWorkAcc/ 🔗
                   </a>{" "}
                 </h3>
