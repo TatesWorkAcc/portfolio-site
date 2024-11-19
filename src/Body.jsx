@@ -141,6 +141,13 @@ function Body() {
               href="https://tatesworkacc.github.io/personal-budget-tracker-web/"
               target="_blank" rel="noopener noreferrer"
             >
+              personal-budget-tracker website 🔗
+            </a>
+            <a
+              className="project-text"
+              href="https://github.com/TatesWorkAcc/personal-budget-tracker"
+              target="_blank" rel="noopener noreferrer"
+            >
               github.com/TatesWorkAcc/personal-budget-tracker 🔗
             </a>
           </div>
